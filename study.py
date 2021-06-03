@@ -37,10 +37,10 @@ import ast
 
 ##문서읽기  https://github.com/WooilJeong/PublicDataReader 
 
-link = "c:\\dev\\PublicDataReader\\"
-cc = "c:\\dev\\PublicDataReader\\temp\\"
-cr = "c:\\dev\\PublicDataReader\\result\\"
-res = "c:\\dev\\PublicDataReader\\res\\"
+link = "c:\\dev\\bigdata\\"
+cc = "c:\\dev\\bigdata\\temp\\"
+cr = "c:\\dev\\bigdata\\result\\"
+res = "c:\\dev\\bigdata\\res\\"
 
 # 다운로드 받은 법정동코드 txt자료를 엑셀에서 불러와 구분기호로 자르고 csv파일로 저장함(영문이름)
 donglist = pd.read_csv(res+'code_G1.csv', encoding="utf-8-sig")
