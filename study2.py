@@ -45,7 +45,7 @@ print(donglist)
 
 govkey = "aChH8Qt2QCyTJbd4Ull9aQZsjMDShkeAFGI6IsY1bA8VzKASfanujsvKt190YMGdSoHUhz8imsHU3%2BmF9cqKpA%3D%3D"
 
-year = [202012, 202101, 202102] 
+year = [202101, 202102, 202103, 202104] 
 py_min = 72
 py_max = 99
 
@@ -68,4 +68,7 @@ for i in range(len(donglist.index)):
             pass
         else:
             # 자료를 임시폴더에 csv파일로 저장
-            df.to_csv(str(cc + "\\" + str(donglist.loc[i, '법정동명']) + str(b) + '.csv'), encoding='utf-8-sig')
+            df.to_csv(str(cc + "\\" + str(donglist.loc[i, '법정동명'])  + " " + str(b) + '.csv'), encoding='utf-8-sig')
+            
+            
+            
