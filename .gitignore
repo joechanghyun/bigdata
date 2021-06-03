@@ -108,3 +108,6 @@ venv.bak/
 .api_key
 config.py
 .ipynb
+
+temp/
+result/
